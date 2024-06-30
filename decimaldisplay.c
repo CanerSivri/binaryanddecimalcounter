@@ -22,6 +22,6 @@ int main() {
     int decimalNumber = binaryToDecimal(binaryNumber);
 
     printf("The decimal representation of %s is %d\n", binaryNumber, decimalNumber);
-
+    system("pause");
     return 0;
 }

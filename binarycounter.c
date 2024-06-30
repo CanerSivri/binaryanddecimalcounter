@@ -15,6 +15,7 @@ void printStars(int count){
     for(int i=0;i<count;i++){
         printf("*");
     }
+    printf("\n");
 }
 
 int main(){
@@ -25,5 +26,6 @@ int main(){
 
     int result = countOnes(number);
     printStars(result);
+    system("pause");
     return 0;
 }
